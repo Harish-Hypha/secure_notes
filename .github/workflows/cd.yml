@@ -1,4 +1,7 @@
 name: DevSecOps CD
+env:
+  TF_VAR_ec2_public_key: ${{ secrets.EC2_PUBLIC_KEY }}
+
 
 on:
   workflow_dispatch:

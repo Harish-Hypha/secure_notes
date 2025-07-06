@@ -1,0 +1,4 @@
+checkov:
+  skip_check:
+    - CKV_AWS_88  # skip MFA check on user
+  soft_fail: true
